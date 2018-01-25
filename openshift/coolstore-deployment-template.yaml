@@ -155,7 +155,7 @@ objects:
               fieldRef:
                 fieldPath: metadata.namespace
           - name: DISABLE_CART_DISCOVERY
-            value: true
+            value: "true"
           image: library/coolstore-gw:${APP_VERSION}
           livenessProbe:
             httpGet:
