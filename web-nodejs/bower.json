@@ -7,8 +7,8 @@
     "license": "Apache-2.0",
     "private": true,
     "devDependencies": {
-        "patternfly": "3.17.0",
-        "angular-patternfly": "3.17.0",
+        "patternfly": "3.24.0",
+        "angular-patternfly": "3.24.0",
         "isotope": "2.2.2",
         "imagesloaded": "4.1.1",
         "angular-route": "1.5.10",
