@@ -1,5 +1,5 @@
 plugins {
-	id "java"
+    id "java"
     id "io.spring.dependency-management" version "1.0.1.RELEASE"
     id 'org.springframework.boot' version '1.5.2.RELEASE'
 }
@@ -13,7 +13,7 @@ jar {
 repositories {
 	mavenLocal()
 	maven { 
-		url "http://nexus.lab-infra.svc.cluster.local:8081/content/groups/public/" 
+		url "$System.env.MAVEN_MIRROR_URL" 
 	}
 	mavenCentral()
 }
